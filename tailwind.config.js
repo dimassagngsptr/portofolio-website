@@ -11,8 +11,10 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        main_images: "url('/src/assets/background.jpg')",
+        nav_logo: "url('/src/assets/dimas-logo.jpg')",
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
